@@ -10,8 +10,8 @@
 #include <algorithm>
 
 #include "named_object.h"
-#include "packet.hpp"
-#include "stream.hpp"
+#include "packet.h"
+#include "stream.h"
 
 namespace ax {
     // 端口类型

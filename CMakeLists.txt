@@ -8,7 +8,9 @@ include(${CMAKE_SOURCE_DIR}/cmake/import_3rdparty.cmake)
 set (BSP_MSP_DIR ${CMAKE_SOURCE_DIR}/3rdparty/ax_bsp)
 message(STATUS "BSP_MSP_DIR: ${BSP_MSP_DIR}")
 
-add_executable(${PROJECT_NAME} main.cpp)
+include_directories(include)
+aux_source_directory(src SRC)
+add_executable(${PROJECT_NAME} main.cpp ${SRC})
 
 target_include_directories (${PROJECT_NAME} PRIVATE ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} PRIVATE ${OpenCV_LIBS})

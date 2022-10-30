@@ -1,8 +1,0 @@
-//
-// Created by inory on 2022/10/30.
-//
-
-#ifndef AX_MEDIAPIPLE_PEDDETECT_H
-#define AX_MEDIAPIPLE_PEDDETECT_H
-
-#endif //AX_MEDIAPIPLE_PEDDETECT_H

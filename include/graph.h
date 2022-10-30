@@ -10,8 +10,8 @@
 
 #include "named_object.h"
 #include "json/json.h"
-#include "stream.hpp"
-#include "node.hpp"
+#include "stream.h"
+#include "node.h"
 #include "node_factory.h"
 
 namespace ax {

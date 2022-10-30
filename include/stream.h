@@ -13,7 +13,7 @@
 #include <thread>
 
 #include "named_object.h"
-#include "packet.hpp"
+#include "packet.h"
 
 namespace ax {
     class Port;

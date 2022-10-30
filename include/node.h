@@ -13,8 +13,8 @@
 #include <pthread.h>
 
 #include "named_object.h"
-#include "port.hpp"
-#include "stream.hpp"
+#include "port.h"
+#include "stream.h"
 #include "json/json.h"
 #include "utils.h"
 
