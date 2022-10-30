@@ -19,4 +19,6 @@ target_link_directories (${PROJECT_NAME} PRIVATE ${BSP_MSP_DIR}/lib)
 target_link_libraries (${PROJECT_NAME} PRIVATE pthread dl) # ax620a use this
 target_link_libraries (${PROJECT_NAME} PRIVATE ax_run_joint ax_interpreter_external ax_interpreter ax_sys axsyslog stdc++fs)
 
+target_link_libraries (${PROJECT_NAME} PRIVATE ${CONAN_LIBS})
+
 install (TARGETS ${PROJECT_NAME} DESTINATION bin)

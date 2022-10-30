@@ -27,6 +27,13 @@ $ wget -c https://github.com/AXERA-TECH/ax-samples/releases/download/v0.1/opencv
 $ unzip opencv-arm-linux-gnueabihf-gcc-7.5.0.zip
 ```
 
+## 安装JsonCPP
+```
+$ pip install conan
+$ cd 3rdparty
+$ conan install .. --build --profile:host=../conan_profile/ax620
+```
+
 ## 编译
 在工程根目录下
 ```
